@@ -1,0 +1,24 @@
+<app-user [profile]="teachersProfile?.teachersDetail"></app-user>
+<div class="all-students" [routerLink]="['/allStudents']">
+    All Students
+</div>
+<div class="subject-blocks-container">
+    <button class="subjects-blocks"
+        [routerLink]="['/subjects','physics']">
+        Physics
+    </button>
+    <button class="subjects-blocks"
+        [routerLink]="['/subjects','chemistry']">
+        Chemistry
+    </button>
+</div>
+<div class="subject-blocks-container">
+    <button class="subjects-blocks"
+        [routerLink]="['/subjects','maths']">
+        Maths
+    </button>
+    <button class="subjects-blocks"
+        [routerLink]="['/subjects','computers']">
+        Computers
+    </button>
+</div>

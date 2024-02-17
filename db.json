@@ -1,0 +1,257 @@
+{
+    "posts": [
+        { "id": "1", "title": "a title", "views": 100 },
+        { "id": "2", "title": "another title", "views": 200 }
+    ],
+    "comments": [
+        { "id": "1", "text": "a comment about post 1", "postId": "1" },
+        { "id": "2", "text": "another comment about post 1", "postId": "1" }
+    ],
+    "profile": {
+        "name": "typicode"
+    },
+    "teacherProfile": {
+        "teachersDetail": {
+            "name": "Deepak",
+            "courseName": "Msc"
+        }
+    },
+    "allStudents": [
+        {
+            "studentName": "John"
+        },
+        {
+            "studentName": "Vicky"
+        },
+        {
+            "studentName": "Dean"
+        },
+        {
+            "studentName": "Rocky"
+        },
+        {
+            "studentName": "Balo"
+        },
+        {
+            "studentName": "Tinn"
+        },
+        {
+            "studentName": "Rita"
+        },
+        {
+            "studentName": "Vata"
+        },
+        {
+            "studentName": "Bata"
+        },
+        {
+            "studentName": "Tatni"
+        },
+        {
+            "studentName": "Patni"
+        },
+        {
+            "studentName": "Shari"
+        }
+    ],
+    "maths": [
+        {
+            "studentName": "John",
+            "marks": 4
+        },
+        {
+            "studentName": "Vicky",
+            "marks": 9
+        },
+        {
+            "studentName": "Dean",
+            "marks": 5
+        },
+        {
+            "studentName": "Rocky",
+            "marks": 9
+        },
+        {
+            "studentName": "Balo",
+            "marks": 10
+        },
+        {
+            "studentName": "Tinn",
+            "marks": 9
+        },
+        {
+            "studentName": "Rita",
+            "marks": 9
+        },
+        {
+            "studentName": "Vata",
+            "marks": 9
+        },
+        {
+            "studentName": "Bata",
+            "marks": 9
+        },
+        {
+            "studentName": "Tatni",
+            "marks": 9
+        },
+        {
+            "studentName": "Patni",
+            "marks": 9
+        },
+        {
+            "studentName": "Shari",
+            "marks": 9
+        }
+    ],
+    "chemistry": [
+        {
+            "studentName": "John",
+            "marks": 9
+        },
+        {
+            "studentName": "Vicky",
+            "marks": 9
+        },
+        {
+            "studentName": "Dean",
+            "marks": 5
+        },
+        {
+            "studentName": "Rocky",
+            "marks": 9
+        },
+        {
+            "studentName": "Balo",
+            "marks": 10
+        },
+        {
+            "studentName": "Tinn",
+            "marks": 9
+        },
+        {
+            "studentName": "Rita",
+            "marks": 9
+        },
+        {
+            "studentName": "Vata",
+            "marks": 9
+        },
+        {
+            "studentName": "Bata",
+            "marks": 9
+        },
+        {
+            "studentName": "Tatni",
+            "marks": 9
+        },
+        {
+            "studentName": "Patni",
+            "marks": 9
+        },
+        {
+            "studentName": "Shari",
+            "marks": 9
+        }
+    ],
+    "physics": [
+        {
+            "studentName": "JohnPapa",
+            "marks": 9
+        },
+        {
+            "studentName": "Vicky",
+            "marks": 9
+        },
+        {
+            "studentName": "Dean",
+            "marks": 5
+        },
+        {
+            "studentName": "Rocky",
+            "marks": 9
+        },
+        {
+            "studentName": "Balo",
+            "marks": 10
+        },
+        {
+            "studentName": "Tinn",
+            "marks": 9
+        },
+        {
+            "studentName": "Rita",
+            "marks": 9
+        },
+        {
+            "studentName": "Vata",
+            "marks": 9
+        },
+        {
+            "studentName": "Bata",
+            "marks": 9
+        },
+        {
+            "studentName": "Tatni",
+            "marks": 9
+        },
+        {
+            "studentName": "Patni",
+            "marks": 9
+        },
+        {
+            "studentName": "Shari",
+            "marks": 9
+        }
+    ],
+    "computers": [
+        {
+            "studentName": "John",
+            "marks": 9
+        },
+        {
+            "studentName": "Vicky",
+            "marks": 9
+        },
+        {
+            "studentName": "Dean",
+            "marks": 5
+        },
+        {
+            "studentName": "Rocky",
+            "marks": 9
+        },
+        {
+            "studentName": "Balo",
+            "marks": 10
+        },
+        {
+            "studentName": "Tinn",
+            "marks": 9
+        },
+        {
+            "studentName": "Rita",
+            "marks": 9
+        },
+        {
+            "studentName": "Vata",
+            "marks": 9
+        },
+        {
+            "studentName": "Bata",
+            "marks": 9
+        },
+        {
+            "studentName": "Tatni",
+            "marks": 9
+        },
+        {
+            "studentName": "Patni",
+            "marks": 9
+        },
+        {
+            "studentName": "Shari",
+            "marks": 9
+        }
+    ]
+}

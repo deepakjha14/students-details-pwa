@@ -1,0 +1,19 @@
+.app-logo {
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+
+    &__logo {
+        height: 42px;
+        border-radius: 50%;
+    }
+}
+
+.page-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    max-height: calc(100% - 104px);
+}

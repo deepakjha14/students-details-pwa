@@ -1,0 +1,38 @@
+.students-card {
+    background-color: #ffc100;
+    margin-bottom: 8px;
+    border-radius: 8px;
+    width: 320px;
+}
+
+.subjects-img {
+    height: 320px;
+}
+
+.subjects-container {
+    max-height: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    align-items: center;
+}
+:host {
+    width: 100%;
+}
+
+.topper-name {
+    color: #ffc100;
+    font-weight: 400;
+    font-size: larger;
+}
+
+.back-button {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 12px;
+    background-color: #ffe699;
+    width: 100%;
+    border: none;
+}

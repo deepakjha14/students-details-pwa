@@ -1,0 +1,29 @@
+.students-container {
+    padding: 12px;
+    max-height: calc(100% - 36px);
+    overflow-y: scroll;
+}
+
+.students-card {
+    margin-bottom: 12px;
+    background-color: #ffc100;;
+}
+
+.action-btns {
+    background-color: black;
+    color: #fff;
+    padding: 8px;
+    border: none;
+    margin-left: 8px;
+}
+
+.back-button {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 12px;
+    background-color: #ffe699;
+    width: 100%;
+    border: none;
+}

@@ -1,0 +1,23 @@
+<button class="back-button" routerLink="/">
+    <mat-icon>
+        arrow_back
+    </mat-icon> Back
+</button>
+<div class="students-container">
+    @for (student of students; track student.name) {
+        <mat-card class="students-card">
+            <mat-card-header>
+                <mat-card-subtitle>Student Name</mat-card-subtitle>
+                <mat-card-title>{{student?.studentName}}</mat-card-title>
+            </mat-card-header>
+            <mat-card-content>
+                <p>This is a student of our university, we welcome our students.</p>
+                <mat-divider></mat-divider>
+            </mat-card-content>
+            <mat-card-actions>
+                <button class="action-btns">Contact</button>
+                <button class="action-btns">Details</button>
+            </mat-card-actions>
+        </mat-card>
+    }
+</div>

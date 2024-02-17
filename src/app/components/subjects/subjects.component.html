@@ -1,0 +1,15 @@
+<button class="back-button" [routerLink]="['/']">
+    <mat-icon>
+        arrow_back
+    </mat-icon> Back
+</button>
+<div class="subjects-container">
+    <strong class="topper-name"> {{ topper.studentName }} </strong> 
+    obtained 
+    <strong class="topper-name">{{topper.marks}}</strong>
+    <img class="subjects-img" src="./assets/Mathematics-rafiki.png"/>
+    <hr/>
+    <mat-list role="list">
+        <mat-list-item class="students-card" *ngFor="let detail of studentsData; index as i;">{{detail?.studentName}}-{{detail?.marks}}</mat-list-item>
+    </mat-list>
+</div>
