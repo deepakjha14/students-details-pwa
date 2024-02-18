@@ -1,0 +1,47 @@
+{
+  "$schema": "./node_modules/@angular/service-worker/config/schema.json",
+  "index": "/index.html",
+  "dataGroups": [
+    {
+      "name": "subjectsApis",
+      "urls":[
+        "http://localhost:3000/maths",
+        "http://localhost:3000/chemistry"
+      ],
+      "cacheConfig": {
+        "maxAge": "2h",
+        "timeout": "3m",        
+        "cacheOpaqueResponses": false
+      },
+      "cacheQueryOptions": {
+        "ignoreSearch": false
+      }
+    }
+  ],
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "resources": {
+        "files": [
+          "/favicon.ico",
+          "/index.html",
+          "/manifest.webmanifest",
+          "/*.css",
+          "/*.js"
+        ]
+      }
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "resources": {
+        "files": [
+          "/assets/**",
+          "/media/*.(svg|cur|jpg|jpeg|png|apng|webp|avif|gif|otf|ttf|woff|woff2)"
+        ]
+      }
+    }
+  ]
+}
