@@ -13,6 +13,7 @@ import { DashboardComponent } from "./components/dashboard/dashboard.component";
 import { UserComponent } from "./components/user/user.component";
 import { AllStudentsComponent } from "./components/all-students/all-students.component";
 import { SubjectsComponent } from "./components/subjects/subjects.component";
+import { UpdateCheckService } from "./components/services/update-check.service";
 
 @Component({
   selector: 'app-root',
@@ -24,4 +25,9 @@ import { SubjectsComponent } from "./components/subjects/subjects.component";
 })
 export class AppComponent {
   title = 'students-details-pwa';
+  constructor(
+    private updateCheckService: UpdateCheckService
+  ) {
+    this.updateCheckService.checkForUpdate();
+  } 
 }
