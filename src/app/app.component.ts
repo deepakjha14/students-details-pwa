@@ -1,7 +1,8 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterOutlet } from '@angular/router';
 import { HttpClientModule } from "@angular/common/http";
+import { SwPush } from "@angular/service-worker";
 
 import { MatIconModule } from '@angular/material/icon';
 import { MatButtonModule } from '@angular/material/button';
@@ -23,11 +24,20 @@ import { UpdateCheckService } from "./components/services/update-check.service";
   styleUrl: './app.component.scss',
   providers: [StudentsService],
 })
-export class AppComponent {
+export class AppComponent implements OnInit {
   title = 'students-details-pwa';
   constructor(
-    private updateCheckService: UpdateCheckService
+    private updateCheckService: UpdateCheckService,
+    private swPush: SwPush
   ) {
     this.updateCheckService.checkForUpdate();
   } 
+
+  ngOnInit(): void {
+    this.swPush.messages.subscribe(
+      (res: any) => {
+        console.log(res, " Message to show in the notificaiton ");
+      }
+    );
+  }
 }
