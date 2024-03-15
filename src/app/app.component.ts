@@ -34,6 +34,10 @@ export class AppComponent implements OnInit {
   } 
 
   ngOnInit(): void {
+    this.subscribeToPush();
+  }
+
+  subscribeToPush(): void {
     this.swPush.messages.subscribe(
       (res: any) => {
         console.log(res, " Message to show in the notificaiton ");

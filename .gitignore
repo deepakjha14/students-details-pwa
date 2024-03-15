@@ -10,6 +10,7 @@
 /node_modules
 npm-debug.log
 yarn-error.log
+/server/node_modules
 
 # IDEs and editors
 .idea/
@@ -40,3 +41,8 @@ testem.log
 # System files
 .DS_Store
 Thumbs.db
+
+# Firebase
+.firebase
+*-debug.log
+.runtimeconfig.json
